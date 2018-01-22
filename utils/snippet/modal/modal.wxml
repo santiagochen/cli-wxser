@@ -1,0 +1,129 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Modal</text></view>
+</view>
+
+<!--WXSER|modal-->
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><button bindtap="toggleModal" class="btn is-primary">打开普通Modal</button></view>
+</view>
+<view class="columns">
+  <view class="column">
+    
+    <view class="modal {{isActive}}">
+      <view class="modal-background"></view>
+      <view class="modal-content">
+        <view class="box">
+        <view class="menu">
+          <view class="menu-label">章节一</view>
+          <view class="menu-list">
+            <view class="li"><navigator><text>情节一</text></navigator></view>
+            <view class="li"><navigator><text>情节一</text></navigator></view>
+          </view>
+        </view>
+        <view class="menu">
+          <view class="menu-label">章节二</view>
+          <view class="menu-list">
+            <view class="li"><navigator class="is-active"><text>情节一</text></navigator></view>
+            <view class="li"><navigator><text>情节一</text></navigator></view>
+          </view>
+        </view>
+        <view class="menu">
+          <view class="menu-label">章节三</view>
+          <view class="menu-list">
+            <view class="li"><navigator><text>情节一</text></navigator></view>
+            <view class="li"><navigator><text>情节一</text></navigator></view>
+          </view>
+        </view>
+        </view>
+      </view>
+      <text class="modal-close is-large fa fa-close"  bindtap="toggleModal" ></text>
+    </view>
+    
+  </view>
+</view>
+<!--WXSER|Function
+toggleModal : function(e){
+    var that = this;
+    this.setData({
+      isActive : (!that.data.isActive) ? "is-active" : ""
+    })
+  }
+-->
+<!--WXSER|modal-->
+
+
+<!--WXSER|modal|image-->
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><button bindtap="toggleModal1" class="btn is-primary">打开图片Modal</button></view>
+</view>
+<view class="columns">
+  <view class="column">
+    
+    <view class="modal {{isActive1}}">
+      <view class="modal-background"></view>
+      <view class="modal-content">
+        <image class="image is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+      </view>
+      <text class="modal-close is-large fa fa-close"  bindtap="toggleModal1" ></text>
+    </view>
+    
+  </view>
+</view>
+<!--WXSER|Function
+toggleModal1 : function(e){
+    var that = this;
+    this.setData({
+      isActive1 : (!that.data.isActive1) ? "is-active" : ""
+    })
+  }
+-->
+<!--WXSER|modal|image-->
+
+
+<!--WXSER|modal|card-->
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><button bindtap="toggleModal2" class="btn is-primary">打开高级Modal</button></view>
+</view>
+<view class="columns">
+  <view class="column">
+    
+    <view class="modal {{isActive2}}">
+      <view class="modal-background"></view>
+      <view class="modal-card">
+        <view class="modal-card-head">
+          <text class=" is-size-5 modal-card-title">标题</text>
+        </view>
+        <view class="modal-card-body">
+          <text class=" is-size-5">写点什么好呢……</text>
+        </view>
+        <view class="modal-card-foot">
+          <button class="button is-fullwidth" bindtap="toggleModal2" >取消</button>
+          <button class="button is-primary is-fullwidth" bindtap="toggleModal2" >确认</button>
+        </view>
+      </view>
+      <text class="modal-close is-large fa fa-close"  bindtap="toggleModal2" ></text>
+    </view>
+    
+  </view>
+</view>
+<!--WXSER|Function
+toggleModal2 : function(e){
+    var that = this;
+    this.setData({
+      isActive2 : (!that.data.isActive2) ? "is-active" : ""
+    })
+  }
+-->
+<!--WXSER|modal|card-->
+
+
+
+</view>
+
+
+
+

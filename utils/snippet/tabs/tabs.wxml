@@ -1,0 +1,244 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>tabs</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs-->
+    <view class="tabs">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|centered-->
+    <view class="tabs is-centered">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|centered-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|right-->
+    <view class="tabs is-right">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|right-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|icon-->
+    <view class="tabs">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text class="icon fa fa-road"></text><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text class="icon fa fa-bath"></text><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text class="icon fa fa-bolt"></text><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|icon-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|small-->
+    <view class="tabs is-small">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|small-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|medium-->
+    <view class="tabs is-medium">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|medium-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|large-->
+    <view class="tabs is-large">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|large-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|boxed-->
+    <view class="tabs is-boxed">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|boxed-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|toggle-->
+    <view class="tabs is-toggle">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|toggle-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|togglerounded-->
+    <view class="tabs is-toggle is-toggle-rounded is-centered">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|togglerounded-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|tabs|fullwidth-->
+    <view class="tabs is-fullwidth">
+      <view class="ul">
+        <view class="li is-active">
+          <navigator class=""><text>tab1</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab2</text></navigator>
+        </view>
+        <view class="li">
+          <navigator class=""><text>tab3</text></navigator>
+        </view>
+      </view>
+    </view>
+    <!--WXSER|tabs|fullwidth-->
+  </view>
+</view>
+
+
+</view>
+
+
+
+

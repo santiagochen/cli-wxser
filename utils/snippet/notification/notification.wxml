@@ -1,0 +1,35 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Notification</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|notification-->
+    <view class="notification">
+      <text >我该写点什么呢……</text>
+      <text class="fa fa-close delete"></text>
+    </view>
+    <!--WXSER|notification-->
+  </view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|notification|color-->
+    <view class="notification is-primary">
+      <text >我该写点什么呢……</text>
+      <text class="fa fa-close delete"></text>
+    </view>
+    <!--WXSER|notification|color-->
+  </view>
+</view>
+
+</view>
+
+
+
+

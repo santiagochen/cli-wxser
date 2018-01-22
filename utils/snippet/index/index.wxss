@@ -1,0 +1,8 @@
+
+.columns{
+    background-color:#ffffff;
+}
+view.column{
+    background-color:#ffffff;
+    margin-bottom:.25rem;
+}

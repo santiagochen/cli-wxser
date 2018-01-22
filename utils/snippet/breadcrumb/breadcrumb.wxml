@@ -1,0 +1,179 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Breadcrumb</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb-->
+    <view class="breadcrumb">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|centered-->
+    <view class="breadcrumb is-centered">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|centered-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|right-->
+    <view class="breadcrumb is-right">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|right-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|icon-->
+    <view class="breadcrumb">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-home icon"></text><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-bars icon"></text><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text class="fa fa-newspaper-o icon"></text><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|icon-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|arrow_separator-->
+    <view class="breadcrumb has-arrow-separator">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-home icon"></text><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-bars icon"></text><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text class="fa fa-newspaper-o icon"></text><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|arrow_separator-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|dot_separator-->
+    <view class="breadcrumb has-dot-separator">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-home icon"></text><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-bars icon"></text><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text class="fa fa-newspaper-o icon"></text><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|dot_separator-->
+  </view>
+</view>
+
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|bullet_separator-->
+    <view class="breadcrumb has-bullet-separator">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-home icon"></text><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-bars icon"></text><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text class="fa fa-newspaper-o icon"></text><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|bullet_separator-->
+  </view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|breadcrumb|succeeds_separator-->
+    <view class="breadcrumb has-succeeds-separator">
+      <view class="ul">
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-home icon"></text><text>首页</text></navigator>
+      </view>
+      <view class="li">
+        <navigator url="" hover-class="navigator-hover"><text class="fa fa-bars icon"></text><text>版块1</text></navigator>
+      </view>
+      <view class="li">
+        <navigator class="is-active" url="" hover-class="navigator-hover"><text class="fa fa-newspaper-o icon"></text><text>新闻频道</text></navigator>
+      </view>
+      </view>  
+    </view>
+    <!--WXSER|breadcrumb|succeeds_separator-->
+  </view>
+</view>
+
+</view>
+
+
+
+

@@ -1,0 +1,29 @@
+
+
+<view class="section"> 
+
+<block wx:for="{{pageArr}}" wx:for-index="idx" wx:for-item="item">
+
+<view class="columns is-variable is-variable-vertical is-4">
+  
+  <view class="column is-10 is-size-6 has-text-dark">
+    <navigator url="{{item.url}}" hover-class="none">
+    <text>{{item.name}}</text>
+    </navigator>
+  </view>
+  
+  <view class="column is-2 is-size-6 has-text-grey has-text-right">
+    <navigator url="{{item.url}}" hover-class="none">
+    <text class="fa fa-caret-right"></text>
+    </navigator>
+  </view>
+  
+</view>
+
+</block>
+
+</view>
+
+
+
+

@@ -1,0 +1,57 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Card</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|card-->
+    <view class="card">
+      <view class="card-image">
+        <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 100%; height: 200rpx;" ></image>
+      </view>
+      <view class="card-content">
+        <text>随便写些什么……</text>
+      </view>
+    </view>
+    <!--WXSER|card-->
+  </view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|card|advanced-->
+    <view class="card">
+      <view class="card-header">
+        <view class="card-header-title">
+          标题
+        </view>
+        <view class="card-header-icon">
+          <text class="fa fa-times has-text-grey"></text>
+        </view>
+      </view>
+      <view class="card-image">
+        <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 100%; height: 200rpx;" ></image>
+      </view>
+      <view class="card-content">
+        <text>随便写些什么……</text>
+      </view>
+      <view class="card-footer">
+        <view class="card-footer-item"><text class="fa fa-thumbs-up has-text-grey"></text></view>
+        <view class="card-footer-item"><text class="fa fa-thumbs-down has-text-grey"></text></view>
+        <view class="card-footer-item"><text class="fa fa-share-alt has-text-grey"></text></view>
+      </view>
+    </view>
+    <!--WXSER|card|advanced-->
+  </view>
+</view>
+
+
+</view>
+
+
+
+

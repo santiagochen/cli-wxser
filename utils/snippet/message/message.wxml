@@ -1,0 +1,77 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Message</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|message-->
+    <view class="message">
+      <view class="message-header">
+        <text>标题</text>
+        <text class="fa fa-close"></text>
+      </view>
+      <view class="message-body">
+        写点什么好呢……
+      </view>
+    </view>
+    <!--WXSER|message-->
+  </view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|message|small-->
+    <view class="message is-small">
+      <view class="message-header">
+        <text>标题</text>
+        <text class="fa fa-close"></text>
+      </view>
+      <view class="message-body">
+        写点什么好呢……
+      </view>
+    </view>
+    <!--WXSER|message|small-->
+  </view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|message|large-->
+    <view class="message is-large">
+      <view class="message-header">
+        <text>标题</text>
+        <text class="fa fa-close"></text>
+      </view>
+      <view class="message-body">
+        写点什么好呢……
+      </view>
+    </view>
+    <!--WXSER|message|large-->
+  </view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|message|color-->
+    <view class="message is-primary">
+      <view class="message-header">
+        <text>标题</text>
+        <text class="fa fa-close"></text>
+      </view>
+      <view class="message-body">
+        写点什么好呢……
+      </view>
+    </view>
+    <!--WXSER|message|color-->
+  </view>
+</view>
+
+</view>
+
+
+
+

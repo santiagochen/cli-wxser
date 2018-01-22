@@ -1,0 +1,153 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Accordions</text></view>
+</view>
+<!--WXSER|accordions-->
+<view class="columns is-multiline has-bg-dark" bindtap="toggleAccordion" data-acindex="0">
+  <view class="column is-10 is-size-6 has-text-white">
+    <text>测试1</text>
+  </view>
+  <view class="column is-2 is-size-6 has-text-white has-text-right">
+    <block wx:if="{{istoggle[0]==true}}">
+      <text class="fa fa-caret-down"></text>
+    </block>
+    <block wx:else>
+      <text class="fa fa-caret-right"></text>
+    </block>
+    
+  </view> 
+
+  <view class="columns has-bg-dark wrap {{istoggle[0] ? 'active' : ''}} is-multiline">
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试1</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试1</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试1</text>
+      </navigator>
+    </view>
+    <!--unit-->
+  </view>
+  
+  
+</view>
+
+<view class="columns is-multiline has-bg-dark" bindtap="toggleAccordion" data-acindex="1">
+  <view class="column is-10 is-size-6 has-text-white">
+    <text>测试2</text>
+  </view>
+  <view class="column is-2 is-size-6 has-text-white has-text-right">
+    <block wx:if="{{istoggle[1]==true}}">
+      <text class="fa fa-caret-down "></text>
+    </block>
+    <block wx:else>
+      <text class="fa fa-caret-right"></text>
+    </block>
+    
+  </view> 
+
+  <view class="columns has-bg-dark wrap {{istoggle[1] ? 'active' : ''}} is-multiline">
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试2</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试2</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试2</text>
+      </navigator>
+    </view>
+    <!--unit-->
+  </view>
+  
+  
+</view>
+
+<view class="columns is-multiline has-bg-dark" bindtap="toggleAccordion" data-acindex="2">
+  <view class="column is-10 is-size-6 has-text-white">
+    <text>测试3</text>
+  </view>
+  <view class="column is-2 is-size-6 has-text-white has-text-right">
+    <block wx:if="{{istoggle[2]==true}}">
+      <text class="fa fa-caret-down "></text>
+    </block>
+    <block wx:else>
+      <text class="fa fa-caret-right"></text>
+    </block>
+    
+  </view> 
+
+  <view class="columns has-bg-dark wrap {{istoggle[2] ? 'active' : ''}} is-multiline">
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试3</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试3</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 has-text-white">
+      <navigator url="" hover-class="none">
+      <text>测试3</text>
+      </navigator>
+    </view>
+    <!--unit-->
+  </view>
+  
+  
+</view>
+<!--WXSER|Function
+toggleAccordion : function(e){
+  var that = this;
+  var _acindex = e.currentTarget.dataset.acindex;
+  if( !that.data.istoggle ){
+    that.data.istoggle = [];
+  }else{
+    for(var i=0; i<that.data.istoggle.length; i++){
+      if( i !== parseInt(_acindex) ){
+        var _isetter = 'istoggle['+i+']';
+        this.setData({
+          [_isetter] : false
+        })
+      }
+    }
+  }
+  var _target = 'istoggle['+_acindex+']';
+  this.setData({
+    [_target] : that.data.istoggle[_acindex]==true ? false : true
+  })
+}
+-->
+<!--WXSER|accordions-->
+
+</view>
+
+
+
+

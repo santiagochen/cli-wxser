@@ -1,0 +1,55 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Panel</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|panel-->
+    <view class="panel">
+      <view class="panel-heading"><text>标题</text></view>
+      <view class="panel-block">
+        <view class="control has-icons-left">
+        <input class="input" placeholder=""/>
+        <view class="icon is-left">
+          <text class="fa fa-search"></text>
+        </view>
+        </view>
+      </view>
+      <view class="panel-tabs">
+        <navigator class="is-active" url=""><text>所有</text></navigator>
+        <navigator url=""><text>美食</text></navigator>
+        <navigator url=""><text>文化</text></navigator>
+        <navigator url=""><text>运动</text></navigator>
+      </view>
+      <view class="panel-block">
+        <text class="icon fa fa-apple"></text><text>苹果</text>
+      </view>
+      <view class="panel-block">
+        <text class="icon fa fa-glass"></text><text>酒杯</text>
+      </view>
+      <view class="panel-block is-active">
+        <text class="icon fa fa-gamepad"></text><text>游戏</text>
+      </view>
+      <view class="panel-block">
+        <text class="icon fa fa-shower"></text><text>洗浴</text>
+      </view>
+      <view class="panel-block">
+        <text class="icon fa fa-automobile"></text><text>交通</text>
+      </view>
+      <view class="panel-block">
+        <button class="button is-fullwidth">按钮</button>
+      </view>
+    </view>
+    <!--WXSER|panel-->
+  </view>
+</view>
+
+</view>
+
+
+
+

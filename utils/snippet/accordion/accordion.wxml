@@ -1,0 +1,194 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Accordion</text></view>
+</view>
+<!--WXSER|accordion-->
+<view class="columns is-multiline has-bg-white" bindtap="toggleAccordion">
+  <view class="column is-10 is-size-6 has-text-dark">
+    <text>测试</text>
+  </view>
+  <view class="column is-2 is-size-6 has-text-grey has-text-right">
+    <block wx:if="{{istoggle==true}}">
+      <text class="fa fa-caret-down "></text>
+    </block>
+    <block wx:else>
+      <text class="fa fa-caret-right"></text>
+    </block>
+    
+  </view> 
+
+  <view class="columns has-bg-white wrap {{istoggle ? 'active' : ''}} is-multiline">
+    <!--unit-->
+    <view class="column is-10 is-size-6 has-text-dark">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <view class="column is-2 is-size-6 has-text-grey has-text-right">
+      <navigator url="" hover-class="none">
+      <text class="fa fa-caret-right"></text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-10 is-size-6 has-text-dark">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <view class="column is-2 is-size-6 has-text-grey has-text-right">
+      <navigator url="" hover-class="none">
+      <text class="fa fa-caret-right"></text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-10 is-size-6 has-text-dark">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <view class="column is-2 is-size-6 has-text-grey has-text-right">
+      <navigator url="" hover-class="none">
+      <text class="fa fa-caret-right"></text>
+      </navigator>
+    </view>
+    <!--unit-->
+  </view>
+  
+  
+</view>
+<!--WXSER|Function
+toggleAccordion : function(e){
+    var that = this;
+    this.setData({
+      istoggle : that.data.istoggle==true ? false : true
+    })
+  }
+-->
+<!--WXSER|accordion-->
+
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Accordion 圆角 红底白字</text></view>
+</view>
+<!--WXSER|accordion|round-->
+<view class="columns is-round is-multiline" bindtap="toggleAccordion1">
+  <view class="column is-10 is-size-6 has-text-white has-bg-danger">
+    <text>测试</text>
+  </view>
+  <view class="column is-2 is-size-6 has-text-right has-text-white has-bg-danger">
+    <block wx:if="{{istoggle1==true}}">
+      <text class="fa fa-caret-down"></text>
+    </block>
+    <block wx:else>
+      <text class="fa fa-caret-right"></text>
+    </block>
+    
+  </view> 
+
+  <view class="columns has-text-white has-bg-danger is-round wrap {{istoggle1 ? 'active' : ''}}  is-multiline">
+    <!--unit-->
+    <view class="column is-full is-size-6">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-full is-size-6 ">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <!--unit-->
+  </view>
+  
+  
+</view>
+<!--WXSER|Function
+toggleAccordion1 : function(e){
+    var that = this;
+    this.setData({
+      istoggle1 : that.data.istoggle1==true ? false : true
+    })
+  }
+-->
+<!--WXSER|accordion|round-->
+
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Accordion 有图片</text></view>
+</view>
+<!--WXSER|accordion|image-->
+<view class="columns is-multiline" bindtap="toggleAccordion2">
+  <view class="column is-1 has-bg-dark">
+    <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 100%; height: 100%;" ></image>
+  </view>
+  <view class="column is-9 is-size-6 has-text-white has-bg-dark">
+    <text>测试</text>
+  </view>
+  <view class="column is-2 is-size-6 has-text-right has-text-white has-bg-dark">
+    <block wx:if="{{istoggle2==true}}">
+      <text class="fa fa-caret-down"></text>
+    </block>
+    <block wx:else>
+      <text class="fa fa-caret-right"></text>
+    </block>
+    
+  </view> 
+
+  <view class="columns has-text-white has-bg-dark wrap {{istoggle2 ? 'active' : ''}}  is-multiline">
+    <!--unit-->
+    <view class="column is-1 has-bg-dark">
+      <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 100%; height: 100%;" ></image>
+    </view>
+    <view class="column is-11 is-size-6">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-1 has-bg-dark">
+      <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 100%; height: 100%;" ></image>
+    </view>
+    <view class="column is-11 is-size-6">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <!--unit-->
+    <view class="column is-1 has-bg-dark">
+      <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 100%; height: 100%;" ></image>
+    </view>
+    <view class="column is-11 is-size-6 ">
+      <navigator url="" hover-class="none">
+      <text>测试</text>
+      </navigator>
+    </view>
+    <!--unit-->
+  </view>
+  
+</view>
+<!--WXSER|Function
+toggleAccordion2 : function(e){
+    var that = this;
+    this.setData({
+      istoggle2 : that.data.istoggle2==true ? false : true
+    })
+  }
+-->
+<!--WXSER|accordion|image-->
+
+
+</view>
+
+
+
+

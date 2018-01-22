@@ -1,0 +1,34 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Media</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|media-->
+    <view class="media">
+      <view class="media-left">
+        <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 200rpx; height: 150rpx;" ></image>
+      </view>
+      <view class="media-content">
+        <view class="content">
+        <view class="column is-full has-text-dark is-size-5"><text>随便写些什么……</text></view>
+        <view class="column is-full has-text-grey is-size-7"><text>随便写些什么……</text></view>
+        </view>
+      </view>
+      <view class="media-right">
+        <text class="fa fa-window-close has-text-dark"></text>
+      </view>
+    </view>
+    <!--WXSER|media-->
+  </view>
+</view>
+
+</view>
+
+
+
+

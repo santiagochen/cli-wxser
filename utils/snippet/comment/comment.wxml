@@ -1,0 +1,67 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Comment</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|comment-->
+    <view class="media">
+      <view class="media-left">
+        <image class="image is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 80rpx; height: 80rpx;" ></image>
+      </view>
+      <view class="media-content">
+        <view class="content">
+        <view class="column is-full has-text-dark is-size-5"><text>随便写些什么……</text></view>
+        <view class="column is-full has-text-grey is-size-7"><text>随便写些什么……</text></view>
+        </view>
+        <!--unit-->
+        <view class="media">
+          <view class="media-left">
+            <image class="image is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 80rpx; height: 80rpx;" ></image>
+          </view>
+          <view class="media-content">
+            <view class="content">
+            <view class="column is-full has-text-dark is-size-5"><text>随便写些什么……</text></view>
+            <view class="column is-full has-text-grey is-size-7"><text>随便写些什么……</text></view>
+            </view>
+            <!--unit-->
+            <view class="media">
+              <view class="media-left">
+                <image class="image is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 80rpx; height: 80rpx;" ></image>
+              </view>
+              <view class="media-content">
+                <view class="content">
+                <view class="column is-full has-text-dark is-size-5"><text>随便写些什么……</text></view>
+                <view class="column is-full has-text-grey is-size-7"><text>随便写些什么……</text></view>
+                </view>
+              </view>
+            </view>
+
+          </view>
+        </view>
+
+      </view>
+    </view>
+    <view class="media">
+      <view class="media-left">
+        <image class="image is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg" style="width: 80rpx; height: 80rpx;" ></image>
+      </view>
+      <view class="media-content">
+        <view class="content">
+        <textarea class="textarea" placeholder="textarea"  />
+        </view>
+      </view>
+    </view>
+    <!--WXSER|comment-->
+  </view>
+</view>
+
+</view>
+
+
+
+

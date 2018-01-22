@@ -1,0 +1,21 @@
+
+
+<view class="section"> 
+
+<view class="columns">
+  <view class="column has-text-grey is-size-6"><text>Media</text></view>
+</view>
+
+<view class="columns">
+  <view class="column">
+    <!--WXSER|progress-->
+    <progress percent="40" stroke-width="12" />
+    <!--WXSER|progress-->
+  </view>
+</view>
+
+</view>
+
+
+
+

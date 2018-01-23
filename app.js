@@ -37,7 +37,7 @@ program.command('get <cmd>')
 
 
 //通过次级分类名称搜索
-program.command('ext <cmd>')
+/* program.command('ext <cmd>')
 .description('搜索获取')
 .action(function(cmd) {
     var list = sniffer.searchData(cmd);
@@ -49,7 +49,7 @@ program.command('ext <cmd>')
         console.log("对不起, 搜索不到任何相关片段")
     }
     
-});
+}); */
 
 program
 .version(pkg.version)

@@ -56,6 +56,11 @@ function inqSingle(hy){
         }
     ]).then(function (answers) {
         answers.hy1 = hy.hy1[0].value;
+
+        if( _.findWhere( hy.hy1, {value:answers.hy1} ).sp==true ){
+            answers.sp = true;
+        }
+
         if(callback){
             callback(answers);
         }else{
@@ -100,7 +105,12 @@ function inqAll(hy){
             }
 
         ]).then(function(answers2){
-            selected.hy2 = answers2.hy2;
+            selected.hy2 = answers2.hy2; 
+            
+            if( _.findWhere( hy.hy1, {value:selected.hy1} ).sp==true ){
+                selected.sp = true;
+            }
+            
             if(callback){
                 callback(selected);
             }else{

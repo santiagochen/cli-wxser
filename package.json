@@ -1,6 +1,6 @@
 {
   "name": "wxser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli for wxser",
   "main": "app.js",
   "scripts": {

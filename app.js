@@ -26,7 +26,7 @@ program.command('get <cmd>')
 .action(function(cmd) {
     var list = sniffer.getData(cmd);
     if(list){
-        inq.inqSingle(list,function(data){ console.log( " TEST inqSingle : " ); console.log( data )
+        inq.inqSingle(list,function(data){
             clipboardy.write(sniffer.getWxml( data )).then(console.log("成功获取内容!"));
         })
     }else{

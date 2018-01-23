@@ -58,7 +58,7 @@ function inqSingle(hy){
         answers.hy1 = hy.hy1[0].value;
 
         if( _.findWhere( hy.hy1, {value:answers.hy1} ).sp==true ){
-            answers.sp = true; console.log("jinlaile !!!!!!!!!!!!!!")
+            answers.sp = true;
         }
 
         if(callback){

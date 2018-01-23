@@ -65,7 +65,6 @@ exports = module.exports = {
             if(data=='index') return;
             that.analyseSingleRaw(data)
         })
-        console.log(this.hy)
     },
 
     /*
@@ -142,7 +141,6 @@ exports = module.exports = {
         var arr = [config.base,'/',obj.hy1,'/', ( obj.sp==true?obj.hy2:obj.hy1 ),'.wxml'];  
         
         try {
-            console.log( " TEST getwxml : "  +arr.join('')  )
             var _file = fs.readFileSync( arr.join('') );
             _raw = _file.toString();  
             var ctArr = _raw.split( ( config.preStr + obj.hy1 + ( obj.hy2=='basic'?'':( '|'+ obj.hy2 ) ) + config.postStr ) )

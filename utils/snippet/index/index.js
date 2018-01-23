@@ -18,7 +18,7 @@ Page({
       {name : "片段 | Message", url : "../message/message"},
       {name : "片段 | Modal", url : "../modal/modal"},
       {name : "片段 | Notification", url : "../notification/notification"},
-      {name : "片段 | Form", url : "../form/form"},
+      {name : "片段 | Profile", url : "../scene/profile"},
     ]
   },
 

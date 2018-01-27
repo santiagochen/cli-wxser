@@ -1,0 +1,103 @@
+
+
+
+<view class="section">
+
+<!--WXSER|lego|horizontal-->
+<view class="lego is-ancestor">
+    <view class="lego has-text-grey-light is-size-6 has-text-centered">
+      <view class="wrap">
+        <text>内容</text>
+      </view>
+    </view>
+    <view class="lego has-text-grey-light is-size-6 has-text-centered">
+      <view class="wrap">
+        <text>内容</text>
+      </view>
+    </view>
+    <view class="lego has-text-grey-light is-size-6 has-text-centered">
+      <view class="wrap">
+        <text>内容</text>
+      </view>
+    </view>
+</view>
+<!--WXSER|lego|horizontal-->
+
+</view>
+
+
+
+
+<view class="section">
+
+<!--WXSER|lego|vertical-->
+<view class="lego is-ancestor is-vertical">
+    <view class="lego has-text-grey-light is-size-6 has-text-centered">
+      <view class="wrap">
+        <text>内容</text>
+      </view>
+    </view>
+    <view class="lego has-text-grey-light is-size-6 has-text-centered">
+      <view class="wrap">
+        <text>内容</text>
+      </view>
+    </view>
+    <view class="lego has-text-grey-light is-size-6 has-text-centered">
+      <view class="wrap">
+        <text>内容</text>
+      </view>
+    </view>
+</view>
+<!--WXSER|lego|vertical-->
+
+</view>
+
+
+<view class="section">
+
+<!--WXSER|lego|mix-->
+<view class="lego is-ancestor has-text-grey-light is-size-6 has-text-centered">
+    
+    <view class="lego is-3">
+      <view class="lego is-parent">
+        <view class="lego is-child">
+          <view class="wrap"><text>内容</text></view>
+        </view>
+        <view class="lego is-child">
+          <view class="wrap"><text>内容</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="lego is-2">
+      <view class="lego is-parent">
+        <view class="lego is-child">
+          <view class="wrap"><text>内容</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="lego is-7">
+      <view class="lego is-parent is-vertical">
+        <view class="lego is-child">
+          <view class="wrap"><text>内容</text></view>
+        </view>
+        <view class="lego is-child">
+          <view class="wrap"><text>内容</text></view>
+        </view>
+        <view class="lego is-child">
+          <view class="wrap"><text>内容</text></view>
+        </view>
+      </view>
+    </view>
+    
+</view>
+<!--WXSER|lego|mix-->
+
+</view>
+
+
+
+
+
+
+
+

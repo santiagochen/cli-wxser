@@ -1,64 +1,6 @@
 
 <!--WXSER|scene|form-->
 
-<view class="pin top">
-
-<view class="section">
-<view class="float">
-    <view class="float-left"></view>
-    <view class="float-right">
-      <view class="float-item">
-          <view>
-          <text class="fa fa-bars has-text-white"></text>
-          </view>
-      </view>
-    </view>
-</view>
-</view>
-
-</view>
-
-<view class="section is-medium has-bg-info">
-
-  <view class="columns is-centered">
-    <view class="column is-2">
-      <view class="image is-1by1">
-        <image src="../../../image/wxser-head.jpg" class="is-circle" style="width:100%;" mode="scaleToFill"></image>
-      </view>
-    </view>
-  </view>
-
-  <view class="columns is-multiline">
-    <view class="column is-12 has-text-white is-size-6 has-text-centered">
-      <text>Wxser</text>
-    </view>
-    <view class="column is-12 has-text-white is-size-6 has-text-centered">
-      <text>小程序布局框架</text>
-    </view>
-
-    <view class="column is-12 has-text-light is-size-7 ">
-      <text>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</text>
-    </view>
-  </view>
-
-</view>
-
-<view class="section">
-    <block wx:for="{{arr}}" wx:for-index="idx" wx:for-item="item">
-    <view class="columns">
-      <view class="column is-2">
-        <view class="image is-1by1">
-          <image src="../../../image/wxser-head.jpg" class="is-thumbnail" style="width:100%;" mode="scaleToFill"></image>
-        </view>
-      </view>
-      <view class="column is-10 is-size-6 has-text-grey">
-        <text>now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </text>
-      </view>
-    </view>
-    </block>
-</view>
-
-
 
 
 <!--WXSER|scene|form-->

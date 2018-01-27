@@ -14,6 +14,7 @@ exports = module.exports = {
     },
 
     getSingleRaw : function(dir){
+        if( dir.indexOf( "." )==0 ) return;
         var that = this;
         this.dirArr = dir.split("-");
 
@@ -22,8 +23,8 @@ exports = module.exports = {
         }else{
             
         }
-
-        var dirCt = fs.readdirSync( [config.base,'/',this.dirArr[0]].join('') );
+        
+        var dirCt = fs.readdirSync( [config.base,'/',this.dirArr[0]].join('') ); 
         var _rawArr = [];
         for( var m=0; m<dirCt.length; m++ ){
             if( dirCt[m].indexOf( '.wxml' )>=0 ){

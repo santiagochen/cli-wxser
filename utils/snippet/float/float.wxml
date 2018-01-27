@@ -1,0 +1,44 @@
+
+<!--WXSER|float-->
+<view class="float has-text-grey is-size-6">
+    <view class="float-left">
+      <view class="float-item">
+        <view class="wrap has-text-centered has-text-grey is-size-6">
+          <text>float-left</text>
+        </view>
+      </view>
+    </view>
+    <view class="float-right">
+      <view class="float-item">
+        <view class="wrap has-text-centered">
+          <text>float-right</text>
+        </view>
+      </view>
+    </view>
+</view>
+<!--WXSER|float-->
+
+
+<!--WXSER|float|auto-->
+<view class="float has-text-grey is-size-6">
+    <view class="float-item has-text-grey is-size-6">
+      <view class="wrap has-text-centered">
+        <text>内容</text>
+      </view>
+    </view>
+    <view class="float-item has-text-grey is-size-6">
+      <view class="wrap has-text-centered">
+        <text>内容</text>
+      </view>
+    </view>
+    <view class="float-item has-text-grey is-size-6">
+      <view class="wrap has-text-centered">
+        <text>内容</text>
+      </view>
+    </view>
+</view>
+<!--WXSER|float|auto-->
+
+
+
+

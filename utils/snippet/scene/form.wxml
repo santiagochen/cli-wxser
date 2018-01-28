@@ -2,6 +2,67 @@
 <!--WXSER|scene|form-->
 
 
+<view class="section">
+
+<view class="columns">
+    
+<view class="column is-full has-text-centered">
+<text class="is-size-5">表单</text>
+</view>
+
+</view>
+    
+<view class="columns">
+    
+<view class="column is-2 has-text-right">
+<text class="is-size-6">姓名</text>
+</view>
+
+<view class="column is-10">
+<input class="input" placeholder="" type="text"/>
+</view>
+
+</view>
+
+<view class="columns">
+    
+<view class="column is-2 has-text-right">
+<text class="is-size-6">手机号</text>
+</view>
+
+<view class="column is-10">
+<input class="input" placeholder="" type="number"/>
+</view>
+
+</view>
+
+<view class="columns">
+    
+<view class="column is-2 has-text-right">
+<text class="is-size-6">信息</text>
+</view>
+
+<view class="column is-10">
+<textarea class="textarea is-square is-border-success" placeholder="textarea"  />
+</view>
+
+</view>
+
+<view class="columns">
+    
+<view class="column is-6 has-text-right">
+<button class="button is-fullwidth">取消</button>
+</view>
+
+<view class="column is-6 has-text-right">
+<button class="button is-fullwidth is-success">提交</button>
+</view>
+
+</view>
+  
+
+</view>
+
 
 <!--WXSER|scene|form-->
 

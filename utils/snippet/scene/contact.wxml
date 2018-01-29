@@ -1,0 +1,35 @@
+
+<!--WXSER|scene|contact-->
+
+
+
+<view class="section">
+
+
+<view class="columns">
+    
+<view class="column is-2">
+<image class="image" mode="widthFix" src="../../../image/wxser-head.jpg"></image>
+</view>
+  
+
+<view class="column is-7">
+    一些内容
+</view>
+<view class="column is-3 has-text-right">
+    <view class="tag is-large is-black">Black</view>
+</view>
+
+</view>
+    
+
+</view>
+
+
+
+<!--WXSER|scene|contact-->
+
+
+
+
+

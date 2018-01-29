@@ -1,0 +1,28 @@
+
+<!--WXSER|input-->
+<input class="input" placeholder="一个可以自动聚焦的input"/>
+<!--WXSER|input-->
+
+<!--WXSER|input|small-->
+<input class="input is-small" placeholder="一个可以自动聚焦的input"/>
+<!--WXSER|input|small-->
+
+<!--WXSER|input|large-->
+<input class="input is-large" placeholder="一个可以自动聚焦的input"/>
+<!--WXSER|input|large-->
+
+<!--WXSER|input|color-->
+<input class="input is-danger" placeholder="一个可以自动聚焦的input"/>
+<!--WXSER|input|color-->
+
+<!--WXSER|input|square-->
+<input class="input is-square" placeholder="一个可以自动聚焦的input"/>
+<!--WXSER|input|square-->
+
+<!--WXSER|input|round-->
+<input class="input is-round" placeholder="一个可以自动聚焦的input"/>
+<!--WXSER|input|round-->
+
+
+
+

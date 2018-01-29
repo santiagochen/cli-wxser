@@ -1,0 +1,113 @@
+
+<view class="section">
+  
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag-->
+      <view class="tag">标签</view>
+      <!--WXSER|tag-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签 颜色</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|color-->
+      <view class="tag is-danger">标签</view>
+      <!--WXSER|tag|color-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签 小</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|small-->
+      <view class="tag is-small">标签</view>
+      <!--WXSER|tag|small-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签 大</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|large-->
+      <view class="tag is-large">标签</view>
+      <!--WXSER|tag|large-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签 圆角</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|round-->
+      <view class="tag is-round">标签</view>
+      <!--WXSER|tag|round-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签 删除标签</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|delete-->
+      <view class="tag is-delete"></view>
+      <!--WXSER|tag|delete-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>标签 图标标签</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|icon-->
+      <view class="tag is-medium">
+      菜单 <text class="fa fa-bars"></text>
+      </view>
+      <!--WXSER|tag|icon-->
+      </view>
+  </view>
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>多标签</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|multiple-->
+      <view class="tags">
+      <view class="tag">菜单1</view>
+      <view class="tag">菜单2</view>
+      <view class="tag">菜单3</view>
+      </view>
+      <!--WXSER|tag|multiple-->
+      </view>
+  </view>
+
+
+  <view class="columns">
+    <view class="column has-text-grey is-size-6"><text>组合标签</text></view>
+  </view>
+  <view class="columns">
+      <view class="column">
+      <!--WXSER|tag|combine-->
+      <view class="tags has-addons">
+      <view class="tag is-dark">菜单1</view>
+      <view class="tag is-danger">菜单2</view>
+      </view>
+      <!--WXSER|tag|combine-->
+      </view>
+  </view>
+
+</view>

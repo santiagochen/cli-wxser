@@ -1,0 +1,30 @@
+
+<!--WXSER|button-->
+<button class="button">按钮</button>
+<!--WXSER|button-->
+
+<!--WXSER|button|color-->
+<button class="button is-primary">按钮</button>
+<!--WXSER|button|color-->
+
+<!--WXSER|button|small-->
+<button class="button is-small">按钮</button>
+<!--WXSER|button|small-->
+
+<!--WXSER|button|large-->
+<button class="button is-large">按钮</button>
+<!--WXSER|button|large-->
+
+<!--WXSER|button|square-->
+<button class="button is-square">按钮</button>
+<!--WXSER|button|square-->
+
+<!--WXSER|button|round-->
+<button class="button is-round">按钮</button>
+<!--WXSER|button|round-->
+
+
+
+
+
+

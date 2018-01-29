@@ -1,0 +1,14 @@
+
+<!--WXSER|textarea-->
+<textarea class="textarea" placeholder="textarea"  />
+<!--WXSER|textarea-->
+
+
+<!--WXSER|textarea|color-->
+<textarea class="textarea is-border-danger" placeholder="textarea"  />
+<!--WXSER|textarea|color-->
+
+
+<!--WXSER|textarea|square-->
+<textarea class="textarea is-square" placeholder="textarea"  />
+<!--WXSER|textarea|square-->

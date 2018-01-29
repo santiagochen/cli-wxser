@@ -1,0 +1,117 @@
+
+<view class="section">
+  
+  
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>1.1 Image</text></view>
+  </view>
+  <view class="columns">
+  <view class="column">
+  <!--WXSER|image-->
+  <image class="image" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  <!--WXSER|image-->
+  </view>
+  </view>
+
+  
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>1.2 Image(方角)</text></view>
+  </view>
+  <view class="columns">
+  <view class="column">
+  <!--WXSER|image|square-->
+  <image class="image is-square" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  <!--WXSER|image|square-->
+  </view>
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>1.3 Image(带边框)</text></view>
+  </view>
+  <view class="columns">
+  <view class="column">
+  <!--WXSER|image|thumbnail-->
+  <image class="image is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  <!--WXSER|image|thumbnail-->
+  </view>
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>1.4. Image(带边框+方角)</text></view>
+  </view>
+  <view class="columns">
+  <view class="column">
+  <!--WXSER|image|thumbnail_square-->
+  <image class="image is-thumbnail is-square" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  <!--WXSER|image|thumbnail_square-->
+  </view>
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>1.5 Image(圆形图片+常用尺寸:1:1)</text></view>
+  </view>
+  <view class="columns">
+  <!--WXSER|image|1x1-->
+  <view class="column image is-1by1">
+  <image class="is-circle" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  </view>
+  <!--WXSER|image|1x1-->
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>2.1 Image(常用尺寸:1:1)</text></view>
+  </view>
+  <view class="columns">
+  <view class="column image is-1by1">
+  <image class="is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  </view>
+  </view>
+
+  <!--separator-->
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>2.2 Image(常用尺寸:4:3)</text></view>
+  </view>
+  <view class="columns">
+  <!--WXSER|image|4x3-->
+  <view class="column image is-4by3">
+  <image class="is-thumbnail" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  </view>
+  <!--WXSER|image|4x3-->
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>2.3 Image(常用尺寸:3:2)</text></view>
+  </view>
+  <view class="columns">
+  <!--WXSER|image|3x2-->
+  <view class="column image is-3by2">
+  <image class="is-thumbnail is-square" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  </view>
+  <!--WXSER|image|3x2-->
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>2.4 Image(常用尺寸:16:9)</text></view>
+  </view>
+  <view class="columns">
+  <!--WXSER|image|16x9-->
+  <view class="column image is-16by9">
+  <image class="is-thumbnail is-square" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  </view>
+  <!--WXSER|image|16x9-->
+  </view>
+
+  <view class="columns">
+  <view class="column has-text-grey is-size-6"><text>2.5 Image(常用尺寸:2:1)</text></view>
+  </view>
+  <view class="columns">
+  <!--WXSER|image|2x1-->
+  <view class="column image is-2by1">
+  <image class="is-thumbnail is-square" mode="scaleToFill" src="../../../image/sample.jpg"></image>
+  </view>
+  <!--WXSER|image|2x1-->
+  </view>
+  
+
+</view>
+

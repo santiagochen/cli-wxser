@@ -1,0 +1,41 @@
+
+<view class="section">
+  
+  <!--WXSER|pin|center-->
+  <view class="pin center">
+    <view>fixed-center</view>
+  </view>
+  <!--WXSER|pin|center-->
+
+  <!--WXSER|pin|bottom-->
+  <view class="pin bottom">
+    <view>fixed-bottom</view>
+  </view>
+  <!--WXSER|pin|bottom-->
+  
+  <!--WXSER|pin|top-->
+  <view class="pin top">
+    <view>fixed-top</view>
+  </view>
+  <!--WXSER|pin|top-->
+
+  <!--WXSER|pin|abscenter-->
+  <view class="pin abs center">
+    <view>absolute-center</view>
+  </view>
+  <!--WXSER|pin|abscenter-->
+
+  <!--WXSER|pin|absbottom-->
+  <view class="pin abs bottom">
+    <view>absolute-bottom</view>
+  </view>
+  <!--WXSER|pin|absbottom-->
+  
+  <!--WXSER|pin|abstop-->
+  <view class="pin abs top">
+    <view>absolute-top</view>
+  </view>
+  <!--WXSER|pin|abstop-->
+
+</view>
+

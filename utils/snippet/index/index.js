@@ -35,7 +35,8 @@ Page({
 
       {name : "基础 | Footer", url : "../footer/footer"},
       {name : "片段 | Float", url : "../float/float"},
-      {name : "片段 | Lego", url : "../lego/lego"}
+      {name : "片段 | Lego", url : "../lego/lego"},
+      {name : "片段 | pin", url : "../pin/pin"}
     ]
   },
 

@@ -45,7 +45,7 @@ function inqSingle(hy){
             name: 'hy2',
             type: 'list',
             message: '选择'+hy.hy1[0].value+'的二级种类:',
-            choices: _.where( hy.hy2, {_parent:hy.hy1[0].value} ).map(function (data) {
+            choices: _.sortBy( _.where( hy.hy2, {_parent:hy.hy1[0].value} ), 'name' ).map(function (data) {
                 return {
                     name: data.name,
                     value: data.value,
@@ -72,13 +72,13 @@ function inqSingle(hy){
 }
 
 function inqAll(hy){
-    var callback=arguments[1]?arguments[1]:null, selected = {}; 
+    var callback=arguments[1]?arguments[1]:null, selected = {};
     inquirer.prompt([
         {
             name: 'hy1',
             type: 'list',
             message: '选择一级种类:',
-            choices: hy.hy1.map(function (data) {
+            choices: _.sortBy(hy.hy1,'name').map(function (data) {
                 return {
                     name: data.name,
                     value: data.value,
@@ -95,7 +95,7 @@ function inqAll(hy){
                 name: 'hy2',
                 type: 'list',
                 message: '选择'+answers1.hy1+'的二级种类:',
-                choices: _.where( hy.hy2, {_parent:answers1.hy1} ).map(function (data) {
+                choices: _.sortBy( _.where( hy.hy2, {_parent:answers1.hy1} ), 'name' ).map(function (data) {
                     return {
                         name: data.name,
                         value: data.value,

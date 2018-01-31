@@ -1,0 +1,9 @@
+
+.section{
+    height:1200px;
+}
+
+.pin>view{
+    padding:10rpx;
+    background-color:rgba(0,0,0,.1);
+}

@@ -13,17 +13,51 @@
 2. 框架文档
     - 基础
         - 文本对齐方式
-            ``` has-text-left, has-text-centered, has-text-right ```
+            ``` 
+            has-text-left,
+            has-text-centered, 
+            has-text-right 
+            ```
         - 文本颜色
-            ``` has-text-dark, has-text-gray, has-text-white, has-text-danger, has-text-info, has-text-warning, has-text-primary 等等```
+            ``` 
+            has-text-dark, 
+            has-text-gray, 
+            has-text-white, 
+            has-text-danger, 
+            has-text-info, 
+            has-text-warning, 
+            has-text-primary
+            ```
         - 背景颜色
-            ``` has-bg-dark, has-bg-gray, has-bg-white, has-bg-danger, has-bg-info, has-bg-warning, has-bg-primary 等等```
+            ``` 
+            has-bg-dark, 
+            has-bg-gray, 
+            has-bg-white, 
+            has-bg-danger, 
+            has-bg-info, 
+            has-bg-warning, 
+            has-bg-primary
+            ```
         - 主题颜色(应用于容器或复合组件)
-            ``` is-dark, is-white, is-danger, is-info, is-warning, is-primary 等等```
+            ``` 
+            is-dark, 
+            is-white, 
+            is-danger, 
+            is-info, 
+            is-warning, 
+            is-primary
+            ```
         - 形状
-            ``` is-square(方形), is-round(圆形) ```
+            ``` 
+            is-square(方形), 
+            is-round(圆形) 
+            ```
         - 尺寸
-            ``` is-large(大), is-medium(中), is-small(小) ```
+            ``` 
+            is-large(大), 
+            is-medium(中), 
+            is-small(小) 
+            ```
     - 表单
         - button 可应用颜色，尺寸，形状
             wxser命令: ``` wxser get button ```

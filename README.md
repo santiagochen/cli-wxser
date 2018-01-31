@@ -161,8 +161,8 @@
                     </view> 
                     ``` 
         - 大头针 [pin]+[top|bottom|center]?+[abs]
-            wxser命令: ``` wxser get pin ```
-            细节
+            - wxser命令: ``` wxser get pin ```
+            - 细节
                 - fixed定位
                     - center ``` <view class="pin center"><view>+</view></view> ```
                     - top ``` <view class="pin top"><view>+</view></view> ```

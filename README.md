@@ -1,13 +1,16 @@
-### Wxser 命令行工具
+### Wxser 命令行工具 ``` npm install -g wxser  ```
  
-1. 安装Wxser ： 
-    ``` npm install -g wxser  ```
-    - ![安装示意图](https://raw.githubusercontent.com/santiagochen/wxser/master/assets/install.gif)
-2. 使用Wxser ：
-    - ``` wxser ls ``` 列出所有元素
-    - ``` wxser get <type> ``` 指定查看某类元素的二级类型
-    - ![使用示意图](https://raw.githubusercontent.com/santiagochen/wxser/master/assets/paste.gif)
-3. 框架文档
+1. 小程序如何使用Wxser ：
+    1. 点击获取 [wxser.wxss](https://raw.githubusercontent.com/santiagochen/wxser/master/wxss/wxser.wxss)
+    2. 在app.wxss内添加 ``` import wxser.wxss ``` , 到这步则已经引用了该文件, 后续可以按照相关规则开发界面了.
+    3. 若需要wxser辅助快速开发，则打开控制台
+        - 确保已经安装wxser ： ``` npm install -g wxser  ```
+            - ![安装示意图](https://raw.githubusercontent.com/santiagochen/wxser/master/assets/install.gif)
+        - 使用wxser命令
+            - ``` wxser ls ``` 列出所有元素
+            - ``` wxser get <type> ``` 指定查看某类元素的二级类型
+            - ![使用示意图](https://raw.githubusercontent.com/santiagochen/wxser/master/assets/paste.gif)
+2. 框架文档
     - 基础
         - 文本对齐方式
             ``` has-text-left, has-text-centered, has-text-right ```

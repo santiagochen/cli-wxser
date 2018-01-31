@@ -1,8 +1,8 @@
-### Wxser 命令行工具 ``` npm install -g wxser  ```
- 
-1. 小程序如何使用Wxser ：
+### wxser 命令行工具 ``` npm install -g wxser  ```
+
+1. 小程序如何使用wxser ：
     1. 点击获取 [wxser.wxss](https://raw.githubusercontent.com/santiagochen/wxser/master/wxss/wxser.wxss)
-    2. 在app.wxss内添加 ``` import wxser.wxss ``` , 到这步则已经引用了该文件, 后续可以按照相关规则开发界面了.
+    2. 在app.wxss内添加 ``` import wxser.wxss ``` , 到这步则已经引用了该文件, 后续可以按照框架文档开发界面了.
     3. 若需要wxser辅助快速开发，则打开控制台
         - 确保已经安装wxser ： ``` npm install -g wxser  ```
             - ![安装示意图](https://raw.githubusercontent.com/santiagochen/wxser/master/assets/install.gif)

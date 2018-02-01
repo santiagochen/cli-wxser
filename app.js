@@ -5,6 +5,7 @@ var clipboardy = require('clipboardy');
 var sniffer = require('./utils/sniffer');
 var pkg = require('./package');
 var inq = require('./utils/inq');
+var fs = require('fs');
 
 //遍历获取
 program.command('ls')
@@ -50,6 +51,15 @@ program.command('get <cmd>')
     }
     
 }); */
+
+//获取wxser框架代码
+program.command('code')
+.description('获取wxser框架代码')
+.action(function(cmd) {
+    var _file = fs.readFileSync( __dirname+'/wxser.wxss' );
+    _raw = _file.toString();
+    clipboardy.write( _raw ).then(console.log("成功获取内容!"));
+});
 
 program
 .version(pkg.version)

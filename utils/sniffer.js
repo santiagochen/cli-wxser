@@ -145,7 +145,11 @@ exports = module.exports = {
             var _file = fs.readFileSync( arr.join('') );
             _raw = _file.toString();  
             var ctArr = _raw.split( ( config.preStr + obj.hy1 + ( obj.hy2=='basic'?'':( '|'+ obj.hy2 ) ) + config.postStr ) )
-            
+
+            if( obj.fa ){
+                ctArr[1] = ctArr[1].replace( "fa", (["fa","fa-"+obj.fa].join(" ")) )
+            }
+
             return ctArr[1];
         } catch (error) {
             //console.log("你请求的内容不存在")

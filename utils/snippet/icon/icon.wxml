@@ -3,9 +3,8 @@
 <view class="section"> 
 
 <!--WXSER|icon-->
-<text class="fa fa-bars"></text>
+<text class="fa"></text>
 <!--WXSER|icon-->
-
 
 </view>
 

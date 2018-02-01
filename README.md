@@ -213,7 +213,7 @@
             - breadcrumb
             - card
             - comment
-            - icon(遵循fontawesome)
+            - icon(遵循Font-Awesome规范)
             - media
             - menu
             - message

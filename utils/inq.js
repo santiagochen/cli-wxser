@@ -61,13 +61,40 @@ function inqSingle(hy){
             answers.sp = true;
         }
 
-        if(callback){
-            callback(answers);
+        if( answers.hy1 == "icon" ){
+
+            inquirer.prompt({
+                type: 'input',
+                name: 'fa',
+                message: "输入想获取的图标名称(如:thumbs-up)"    
+            }).then(result => {
+                
+                answers.fa = result.fa?result.fa:'flag';
+
+                if(callback){
+                    callback(answers); 
+                }else{
+                    console.log( "no callback ----" );
+                    console.log( answers )
+                    console.log( "no callback ----" );
+                }
+
+            });
+
         }else{
-            console.log( "no callback ----" );
-            console.log( answers )
-            console.log( "no callback ----" );
+
+            if(callback){
+                callback(answers);
+            }else{
+                console.log( "no callback ----" );
+                console.log( answers )
+                console.log( "no callback ----" );
+            }
+
         }
+
+        
+ 
     });
 }
 
@@ -110,14 +137,40 @@ function inqAll(hy){
             if( _.findWhere( hy.hy1, {value:selected.hy1} ).sp==true ){
                 selected.sp = true;
             }
-            
-            if(callback){
-                callback(selected);
+
+
+            if( selected.hy1 == "icon" ){
+
+                inquirer.prompt({
+                    type: 'input',
+                    name: 'fa',
+                    message: "输入想获取的图标名称(如:thumbs-up)"    
+                }).then(result => {
+                    
+                    selected.fa = result.fa?result.fa:'flag';
+    
+                    if(callback){
+                        callback(selected);
+                    }else{
+                        console.log( "no callback ----" );
+                        console.log( selected )
+                        console.log( "no callback ----" );
+                    }
+    
+                });
+    
             }else{
-                console.log( "no callback ----" );
-                console.log( answers2 )
-                console.log( "no callback ----" );
+    
+                if(callback){
+                    callback(selected);
+                }else{
+                    console.log( "no callback ----" );
+                    console.log( selected )
+                    console.log( "no callback ----" );
+                }
+    
             }
+            
 
         })
     });

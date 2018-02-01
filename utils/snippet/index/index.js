@@ -22,6 +22,7 @@ Page({
       {name : "场景 | Profile", url : "../scene/profile"},
       {name : "场景 | Form", url : "../scene/form"},
       {name : "场景 | Contact", url : "../scene/contact"},
+      {name : "场景 | Shop", url : "../scene/shop"},
       {name : "基础 | Section", url : "../section/section"},
       {name : "基础 | Icon", url : "../icon/icon"},
       {name : "基础 | Container", url : "../container/container"},
@@ -31,6 +32,8 @@ Page({
       {name : "基础 | Image", url : "../image/image"},
       {name : "基础 | Button", url : "../button/button"},
       {name : "基础 | Input", url : "../input/input"},
+      {name : "基础 | Checkbox", url : "../checkbox/checkbox"},
+      {name : "基础 | Radio", url : "../radio/radio"},
       {name : "基础 | Textarea", url : "../textarea/textarea"},
 
       {name : "基础 | Footer", url : "../footer/footer"},

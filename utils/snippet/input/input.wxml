@@ -1,27 +1,109 @@
 
+<view class="section">
+
+
+<view class="columns">
+<view class="column">
 <!--WXSER|input-->
 <input class="input" placeholder="一个可以自动聚焦的input"/>
 <!--WXSER|input-->
+</view>
+</view>
 
+<view class="columns">
+<view class="column">
 <!--WXSER|input|small-->
 <input class="input is-small" placeholder="一个可以自动聚焦的input"/>
 <!--WXSER|input|small-->
+</view>
+</view>
 
+<view class="columns">
+<view class="column">
 <!--WXSER|input|large-->
 <input class="input is-large" placeholder="一个可以自动聚焦的input"/>
 <!--WXSER|input|large-->
+</view>
+</view>
 
+<view class="columns">
+<view class="column">
 <!--WXSER|input|color-->
 <input class="input is-danger" placeholder="一个可以自动聚焦的input"/>
 <!--WXSER|input|color-->
+</view>
+</view>
 
+<view class="columns">
+<view class="column">
 <!--WXSER|input|square-->
 <input class="input is-square" placeholder="一个可以自动聚焦的input"/>
 <!--WXSER|input|square-->
+</view>
+</view>
 
+<view class="columns">
+<view class="column">
 <!--WXSER|input|round-->
 <input class="input is-round" placeholder="一个可以自动聚焦的input"/>
 <!--WXSER|input|round-->
+</view>
+</view>
+
+<view class="columns">
+<view class="column">
+<!--WXSER|input|icon_left-->
+<view class="field">
+  <view class="control has-icons-left">
+    <input class="input" type="password" placeholder="密码"/>
+    <view class="icon is-left">
+      <text class="fa fa-lock"></text>
+    </view>
+  </view>
+</view>
+<!--WXSER|input|icon_left-->
+</view>
+</view>
+
+<view class="columns">
+<view class="column">
+<!--WXSER|input|icon_right-->
+<view class="field">
+  <view class="control has-icons-right">
+    <input class="input" type="password" placeholder="密码"/>
+    <view class="icon is-right">
+      <text class="fa fa-check"></text>
+    </view>
+  </view>
+</view>
+<!--WXSER|input|icon_right-->
+</view>
+</view>
+
+<view class="columns">
+<view class="column">
+<!--WXSER|input|icon_left_right-->
+<view class="field">
+  <view class="control has-icons-left has-icons-right">
+    <input class="input" type="password" placeholder="密码"/>
+    <view class="icon is-left">
+      <text class="fa fa-lock"></text>
+    </view>
+    <view class="icon is-right">
+      <text class="fa fa-check"></text>
+    </view>
+  </view>
+</view>
+<!--WXSER|input|icon_left_right-->
+</view>
+</view>
+
+
+</view>
+
+
+
+
 
 
 

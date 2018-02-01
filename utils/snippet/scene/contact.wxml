@@ -1,72 +1,62 @@
 
 <!--WXSER|scene|contact-->
-
-
-
 <view class="section">
 
+    <view class="lego is-ancestor has-text-grey-light is-size-6">
+        <view class="lego is-parent is-2">
+            <view class="lego is-child has-text-centered">
+            <image class="image is-circle" mode="scaleToFill" style="height:45px; width:45px" src="../../../image/wxser-head.jpg"></image>
+            </view>
+        </view>
+        <view class="lego is-10">
+        <view class="lego is-parent is-vertical">
+            <view class="lego is-child has-text-left">
+            <text>标题</text>
+            </view>
+            <view class="lego is-child has-text-left">
+            <text>副标题……</text>
+            </view>
+        </view>
+        </view>
+    </view>
 
-<view class="columns">
-    
-<view class="column is-2">
-<image class="image" mode="widthFix" src="../../../image/wxser-head.jpg"></image>
-</view>
-<view class="column is-7">
-    <text class="is-size-6">一些内容,一些内容,一些内容,一些内容,一些内容.</text>
-</view>
-<view class="column is-3 has-text-right">
-      <view class="tag is-dark">菜单1</view>
-</view>
+    <view class="lego is-ancestor has-text-grey-light is-size-6">
+        <view class="lego is-parent is-2">
+            <view class="lego is-child has-text-centered">
+            <image class="image is-circle" mode="scaleToFill" style="height:45px; width:45px" src="../../../image/wxser-head.jpg"></image>
+            </view>
+        </view>
+        <view class="lego is-10">
+        <view class="lego is-parent is-vertical">
+            <view class="lego is-child has-text-left">
+            <text>标题</text>
+            </view>
+            <view class="lego is-child has-text-left">
+            <text>副标题……</text>
+            </view>
+        </view>
+        </view>
+    </view>
 
-</view>
-
-<view class="columns">
-    
-<view class="column is-2">
-<image class="image" mode="widthFix" src="../../../image/wxser-head.jpg"></image>
-</view>
-<view class="column is-7">
-    <text class="is-size-6">一些内容,一些内容,一些内容,一些内容,一些内容.</text>
-</view>
-<view class="column is-3 has-text-right">
-      <view class="tag is-dark">菜单1</view>
-</view>
-
-</view>
-
-<view class="columns">
-    
-<view class="column is-2">
-<image class="image" mode="widthFix" src="../../../image/wxser-head.jpg"></image>
-</view>
-<view class="column is-7">
-    <text class="is-size-6">一些内容,一些内容,一些内容,一些内容,一些内容.</text>
-</view>
-<view class="column is-3 has-text-right">
-      <view class="tag is-dark">菜单1</view>
-</view>
-
-</view>
-
-<view class="columns">
-    
-<view class="column is-2">
-<image class="image" mode="widthFix" src="../../../image/wxser-head.jpg"></image>
-</view>
-<view class="column is-7">
-    <text class="is-size-6">一些内容,一些内容,一些内容,一些内容,一些内容.</text>
-</view>
-<view class="column is-3 has-text-right">
-      <view class="tag is-dark">菜单1</view>
-</view>
-
-</view>
-    
+    <view class="lego is-ancestor has-text-grey-light is-size-6">
+        <view class="lego is-parent is-2">
+            <view class="lego is-child has-text-centered">
+            <image class="image is-circle" mode="scaleToFill" style="height:45px; width:45px" src="../../../image/wxser-head.jpg"></image>
+            </view>
+        </view>
+        <view class="lego is-10">
+        <view class="lego is-parent is-vertical">
+            <view class="lego is-child has-text-left">
+            <text>标题</text>
+            </view>
+            <view class="lego is-child has-text-left">
+            <text>副标题……</text>
+            </view>
+        </view>
+        </view>
+    </view>
 
 </view>
-
-
-
 <!--WXSER|scene|contact-->
 
 

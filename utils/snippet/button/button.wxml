@@ -23,6 +23,10 @@
 <button class="button is-round">按钮</button>
 <!--WXSER|button|round-->
 
+<!--WXSER|button|fullwidth-->
+<button class="button is-fullwidth">按钮</button>
+<!--WXSER|button|fullwidth-->
+
 
 
 

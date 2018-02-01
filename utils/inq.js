@@ -1,5 +1,9 @@
 var inquirer = require('inquirer');
 var _ = require('underscore');
+var _lodash = require('lodash');
+var fuzzy = require('fuzzy');
+var Promise = require('promise');
+inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 
 function inqSearch(hy){
     var callback=arguments[1]?arguments[1]:null, selected = {};
@@ -41,7 +45,7 @@ function inqSearch(hy){
 function inqSingle(hy){
     var callback=arguments[1]?arguments[1]:null, selected = {};
     inquirer.prompt([
-        {
+        /* {
             name: 'hy2',
             type: 'list',
             message: '选择'+hy.hy1[0].value+'的二级种类:',
@@ -53,7 +57,26 @@ function inqSingle(hy){
                     
                 };
             })
+        } */
+
+        {
+            type: 'autocomplete',
+            name: 'hy2',
+            message: '选择'+hy.hy1[0].value+'的二级种类:',
+            pageSize: 8,
+            source: function (data, input ) {
+                input = input || '';
+                return new Promise(function(resolve) {
+                    setTimeout( function() {
+                        var fuzzyResult = fuzzy.filter(input,  _.pluck( _.sortBy( _.where( hy.hy2, {_parent:hy.hy1[0].value} ), 'name' ), "name" )  );
+                        resolve(fuzzyResult.map(function(el) {
+                            return el.original;
+                        }));
+                    }, _lodash.random(30, 500) )
+                })
+            }
         }
+
     ]).then(function (answers) {
         answers.hy1 = hy.hy1[0].value;
 
@@ -98,10 +121,11 @@ function inqSingle(hy){
     });
 }
 
+
 function inqAll(hy){
     var callback=arguments[1]?arguments[1]:null, selected = {};
     inquirer.prompt([
-        {
+        /* {
             name: 'hy1',
             type: 'list',
             message: '选择一级种类:',
@@ -112,13 +136,30 @@ function inqAll(hy){
                     short: "您选择了"+data.value  
                 }
             }) 
+        } */
+        {
+            type: 'autocomplete',
+            name: 'hy1',
+            message: '选择一级种类',
+            pageSize: 8,
+            source: function (data, input ) {
+                input = input || '';
+                return new Promise(function(resolve) {
+                    setTimeout( function() {
+                        var fuzzyResult = fuzzy.filter(input,  _.pluck( _.sortBy(hy.hy1,'name'), "name" )  );
+                        resolve(fuzzyResult.map(function(el) {
+                            return el.original;
+                        }));
+                    }, _lodash.random(30, 500) )
+                })
+            }
         }
         
     ]).then(function (answers1) {
         selected.hy1 = answers1.hy1;
         inquirer.prompt([
 
-            {
+            /* {
                 name: 'hy2',
                 type: 'list',
                 message: '选择'+answers1.hy1+'的二级种类:',
@@ -129,6 +170,24 @@ function inqAll(hy){
                         short: "您选择了"+data._parent+'的'+data.value+"的片段"
                     };
                 })
+            } */
+
+            {
+                type: 'autocomplete',
+                name: 'hy2',
+                message: '选择'+answers1.hy1+'的二级种类:',
+                pageSize: 8,
+                source: function (data, input ) {
+                    input = input || '';
+                    return new Promise(function(resolve) {
+                        setTimeout( function() {
+                            var fuzzyResult = fuzzy.filter(input,  _.pluck( _.sortBy( _.where( hy.hy2, {_parent:answers1.hy1} ), 'name' ), "name" )  );
+                            resolve(fuzzyResult.map(function(el) {
+                                return el.original;
+                            }));
+                        }, _lodash.random(30, 500) )
+                    })
+                }
             }
 
         ]).then(function(answers2){
